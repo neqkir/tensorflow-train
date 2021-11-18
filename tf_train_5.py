@@ -1,22 +1,3 @@
-# ==============================================================================
-# There are 5 questions in this exam with increasing difficulty from 1-5.
-# Please note that the weight of the grade for the question is relative to its
-# difficulty. So your Category 1 question will score significantly less than
-# your Category 5 question.
-#
-# WARNING: Do not use lambda layers in your model, they are not supported
-# on the grading infrastructure. You do not need them to solve the question.
-#
-# WARNING: If you are using the GRU layer, it is advised not to use the
-# recurrent_dropout argument (you can alternatively set it to 0),
-# since it has not been implemented in the cuDNN kernel and may
-# result in much longer training times.
-#
-# You must use the Submit and Test button to submit your model
-# at least once in this category before you finally submit your exam,
-# otherwise you will score zero for this category.
-# ==============================================================================
-#
 # TIME SERIES QUESTION
 #
 # Build and train a neural network to predict the time indexed variable of
